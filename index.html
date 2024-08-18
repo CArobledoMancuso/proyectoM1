@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristian Robledo</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body class="fondo">
+    <header>
+        <div id="titulo">
+            <h1 class="title" id="principal">Cristian Robledo</h1>
+            <br>
+            <br>
+            <h1 class="title">Mi pagina web</h1>
+        </div>
+    </header>
+
+    <main>
+        <article id="quien-soy">
+            <h1 class="title">¿Quien Soy?</h1>
+            <p class="parrafo">Hola, soy Cristian, originario de Tucumán, Argentina. Apasionado por la creación web, estoy
+                inmerso en el aprendizaje constante de HTML, CSS y JavaScript. Este rincón virtual refleja mi viaje en
+                el mundo del desarrollo web y otras actividades que me encantan.</p>
+        </article>
+
+        <article>
+            <div id="card-container">
+                <div class="cards">
+                    <h4 class="title">HTML</h4>
+                    <img src="./assets/img/html.png" class="logo" alt="HTML Logo" />
+                </div>
+
+                <div class="cards">
+                    <h4 class="title">CSS</h4>
+                    <img src="./assets/img/css.png" class="logo" alt="CSS Logo" />
+                </div>
+
+                <div class="cards">
+                    <h4 class="title">JavaScript</h4>
+                    <img src="./assets/img/javascript.webp" class="logo" alt="JavaScript Logo" />
+                </div>
+            </div>
+        </article>
+
+
+        <article id="actividades">
+            <h1 class="title">Actividades Favoritas</h1>
+        </article>
+
+        <form id="activity-form">
+            <div id="formulario-contenido" class="form">
+                <label for="title-input">Titulo</label>
+                <input type="text" placeholder="Titulo :" class="barras" id="title-input">
+
+                <label for="description-input">Descripción de la Imagen:</label>
+                <textarea placeholder="Descripción :" class="barras" id="description-input"></textarea>
+
+                <label for="imgUrl-input">URL</label>
+                <input type="url" placeholder="URL: " id="imgUrl-input" class="barras">
+                <button class="boton" id="submit-button">Agregar</button>
+            </div>
+        </form>
+
+        <div class="organizadorTarjetas" id="actividades-container">
+            <!-- Tarjetas de actividades se agregarán dinámicamente aquí -->
+        </div>
+        <div id="error-message" class="error-message"></div>
+
+    </main>
+
+    <script src="./scripts/index.js"></script>
+    </body>
+
+    <footer class="footer">
+        <div class="links">
+            <h4>© 2024 Cristian Robledo Mancuso</h4>
+            <div class="socials">
+                <a href="https://github.com/CArobledoMancuso" target="_blank">
+                    <div class="social">
+                        <img src="./assets/img/github-mark.svg" alt="GitHub Logo">
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/cristian.robledo.mancuso/" target="_blank">
+                    <div class="social">
+                        <img src="./assets/img/instagram.svg" alt="Instagram Logo">
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/salao0/" target="_blank">
+                    <div class="social">
+                        <img src="./assets/img/facebook.svg" alt="Facebook Logo">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </footer>
+</html>

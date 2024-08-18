@@ -1,0 +1,44 @@
+ /* Remove default margin */
+ body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, figure, blockquote {
+    margin: 0;
+  }
+  
+  /* Remove list styles */
+  ul, ol {
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Set core body defaults */
+  body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.6;
+  }
+  
+  /* Remove text-decoration from links */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Reset form styles to avoid default styles */
+  button, input, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  
+  /* Standardize visually */
+  pre, code, kbd, samp {
+    font-family: monospace;
+    font-size: 1em;
+  }
+  
+  /* Responsive images */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
